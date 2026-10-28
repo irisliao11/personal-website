@@ -1,0 +1,86 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #FFFAF3; 
+}
+
+header {
+  background-color: #183059;
+}
+
+main {
+  text-align: center;
+}
+
+.content {
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  img {
+    max-width: 75%;
+  }
+}
+/* STYLE TEXT */
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gill Sans";
+  padding: 15px;
+  margin-top: 0px;
+}
+
+h2 {
+  color: #276FBF;
+}
+
+#intro {
+  font-family: "Gill Sans";
+}
+
+#contact {
+  font-family: "Gill Sans";
+}
+
+p {
+  color: black;
+}
+
+/* STYLE IMAGES */
+
+img {
+  border-radius: 30px;
+  max-height: 300px;
+  border-style: solid;
+  border-color: #183059;
+  margin-bottom: 15px;
+}
+
+.profile {
+  border-radius: 50px;
+}
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: right;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: #183059;
+  padding: 2%;
+  font-family: "Gill Sans";
+}
+li a:hover {
+  background-color: #183059;
+  color: #FFFAF3;
+}
